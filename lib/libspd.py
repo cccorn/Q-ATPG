@@ -1403,7 +1403,7 @@ def SPD_gen(qc,position,error):
     current_idx=sorted(current_idx)
 
     #forward
-    print('Forward')
+    print('Forward:')
     for ii in tqdm(range(position+1,len(qc),1)):
         u_idx=[jj.index for jj in qc[ii][1]]
         if set(current_idx).intersection(set(u_idx))==set():

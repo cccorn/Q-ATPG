@@ -7,7 +7,7 @@ The implementation of “Automatic Test Pattern Generation for Robust Quantum Ci
 - CVXPY
 
 ### Installation
-1. Clone this repo
+1. Clone this repo:
 ```
 git clone https://github.com/cccorn/Q-ATPG.git
 cd Q-ATPG

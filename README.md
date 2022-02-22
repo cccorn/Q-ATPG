@@ -30,4 +30,9 @@ python gen_cache.py
 ```
 python genSPD_samp.py
 ```
+This script executes the following steps:
+- Generate the SPD for a random fault, and store it in `results/`.
+- Apply the SPD on CUT by simulating the sampling algorithm. 
+- Return the final estimation and its expected value.
+
 You can modify the configurations in `lib/config.py` to change the parameters.

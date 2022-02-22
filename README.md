@@ -26,8 +26,8 @@ mkdir cache results
 python gen_cache.py
 ```
 
-### Demo
+### Run
 ```
-python demo_genSPD_samp.py
+python genSPD_samp.py
 ```
 You can modify the configurations in `lib/config.py` to change the parameters.

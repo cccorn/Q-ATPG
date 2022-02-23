@@ -13,7 +13,6 @@ def genqft(qubits):
             theta=np.pi/2**(tar-q)
             cir.cu1(theta,q,tar)
     return cir
-
 def translate_cu1(qc):
     qc=qc.copy()
     qc2=qiskit.QuantumCircuit(qc.num_qubits)

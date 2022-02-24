@@ -1,5 +1,5 @@
 # Q-ATPG
-The implementation of “Automatic Test Pattern Generation for Robust Quantum Circuit Testing”.
+The implementation of “[Automatic Test Pattern Generation for Robust Quantum Circuit Testing](https://arxiv.org/abs/2202.10697)”.
 
 ### Requirements
 - Python 3
